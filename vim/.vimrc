@@ -1,3 +1,10 @@
+set encoding=utf-8
+scriptencoding utf-8
+
+if &compatible
+  set nocompatible
+endif
+
 " 行番号表示
 set number
 " 空白文字の可視化
@@ -33,4 +40,6 @@ call dein#end()
 " dein settings
 " --------------------
 
+" シンタックスハイライト
+syntax on
 filetype plugin indent on
